@@ -43,7 +43,6 @@ function minSubArrayLen(arr, value){
 let left = 0;
 let right = 0;
 let lenMin = Infinity;
-let lenTemp = 0;
 let tempSum = 0;
 if (arr.length < 2 && arr[0]< value){
     return 0;
