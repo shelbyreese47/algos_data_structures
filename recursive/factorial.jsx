@@ -8,3 +8,17 @@ console.log(factorial(1))
 console.log(factorial(2)) 
 console.log(factorial(4))
 console.log(factorial(7))  
+
+function FirstFactorial(num) { 
+
+  // code goes here 
+  let newNum=1 ; 
+  for (i=num; i>0; i--){
+    newNum*= i;
+    // console.log(newNum)
+
+  }
+  num = newNum;
+  return num; 
+
+}
